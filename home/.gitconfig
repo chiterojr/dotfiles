@@ -11,5 +11,7 @@
 	merc = merge --no-ff
 	shorty = status --short --branch
 	unstage = reset HEAD
+	last = log -1 HEAD
+	slog = log --oneline
 [pull]
 	rebase = true
